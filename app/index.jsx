@@ -22,7 +22,7 @@ export default function Index() {
 
       <Text>{buttonText}</Text>
       <Button onPress={handleButton} title="Damachiiree"></Button>
-      <TextInput onChangeText={(e) => setValue(e)} style={{
+      <TextInput onChangeText={setValue} style={{
         width:200,
         height:60,
 
